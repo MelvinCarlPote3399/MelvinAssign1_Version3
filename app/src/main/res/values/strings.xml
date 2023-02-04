@@ -7,6 +7,7 @@
     <string name="next_screen">Next Screen</string>
     <string name="apartment">Apartment</string>
     <string name="detached_home">Detached Home</string>
+    <string name="choose_your_desired_home_type">Choose your desired home type:</string>
 
 
 </resources>
