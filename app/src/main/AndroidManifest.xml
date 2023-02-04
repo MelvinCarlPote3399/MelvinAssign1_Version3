@@ -13,9 +13,19 @@
         android:theme="@style/Theme.MelvinAssign1_Version3"
         tools:targetApi="31">
         <activity
+            android:name=".RentActivity"
+            android:exported="false"
+            android:label="@string/RentPage"
+            android:parentActivityName=".PoteActivity">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".PoteActivity"
-            android:label="Home"
-            android:exported="false">
+            android:exported="false"
+            android:label="@string/HomePageText">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
