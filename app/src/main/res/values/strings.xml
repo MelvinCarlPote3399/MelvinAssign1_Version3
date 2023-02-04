@@ -5,6 +5,8 @@
     <string name="HomePageText">Home</string>
     <string name="RentPage">Rent</string>
     <string name="next_screen">Next Screen</string>
+    <string name="apartment">Apartment</string>
+    <string name="detached_home">Detached Home</string>
 
 
 </resources>
