@@ -18,6 +18,7 @@
         android:hint="@string/first_name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:digits="abcdefghijklmnopqrstuvwxyZABCDEFGHIJKLMNOPQRSTUVWXYZ"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,6 +46,7 @@
         android:hint="@string/last_name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:digits="abcdefghijklmnopqrstuvwxyZABCDEFGHIJKLMNOPQRSTUVWXYZ"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -83,9 +85,9 @@
         android:id="@+id/CreditCardNumber"
         android:layout_width="210dp"
         android:layout_height="48dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="332dp"
-        android:layout_marginEnd="101dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="184dp"
         android:ems="10"
         android:hint="@string/credit_card_number"
         android:inputType="number"
@@ -93,7 +95,7 @@
         android:minHeight="48dp"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -102,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="175dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="520dp"
         android:layout_marginEnd="180dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -118,23 +120,39 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="411dp"
         android:layout_marginEnd="246dp"
+        android:hint="@string/country"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/PhoneNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="177dp"
         android:layout_marginTop="412dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
+        android:hint="@string/phone_number"
         android:inputType="phone"
         android:minHeight="48dp"
-        android:hint="@string/phone_number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CVVCard"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="@string/cvv"
+        android:inputType="numberPassword"
+        android:maxLength="3"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
