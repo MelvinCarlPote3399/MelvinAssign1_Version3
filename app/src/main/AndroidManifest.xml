@@ -15,7 +15,8 @@
         <activity
             android:name=".PaymentActivity"
             android:exported="false"
-            android:label="@string/payment_screen">
+            android:label="@string/payment_screen"
+            android:parentActivityName=".PoteActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -23,7 +24,8 @@
         <activity
             android:name=".DetachedHomeActivity"
             android:exported="false"
-            android:label="@string/detachedHome_page">
+            android:label="@string/detachedHome_page"
+            android:parentActivityName=".PoteActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
