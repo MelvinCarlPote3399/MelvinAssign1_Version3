@@ -27,4 +27,11 @@
     <string name="house_1">House 1</string>
     <string name="house_2">House 2</string>
     <string name="house_3">House 3</string>
-</resources>
+    <string name="enter_your_details_below">Enter your details below:</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="address">Address</string>
+    <string name="postalcode">PostalCode</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    </resources>

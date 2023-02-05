@@ -21,6 +21,8 @@ public class DetachedHomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detached_home);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         CheckBox house1 = (CheckBox) findViewById(R.id.houseBox1);
         CheckBox house2 = (CheckBox) findViewById(R.id.houseBox2);
