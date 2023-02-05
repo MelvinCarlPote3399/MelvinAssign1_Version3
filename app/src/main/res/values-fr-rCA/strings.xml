@@ -34,4 +34,6 @@
     <string name="postalcode">PostalCode</string>
     <string name="postal_code">Postal Code</string>
     <string name="credit_card_number">Credit Card Number</string>
-    </resources>
+    <string name="phone_number">Phone Number:</string>
+
+</resources>
