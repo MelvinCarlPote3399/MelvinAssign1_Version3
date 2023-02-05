@@ -9,6 +9,9 @@ public class ApartmentActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_visit_screen);
+        setContentView(R.layout.activity_apartment_screen);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 }

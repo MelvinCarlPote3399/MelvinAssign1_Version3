@@ -11,4 +11,11 @@
     <string name="choose_your_desired_home_type">Choose your desired home type:</string>
     <string name="apartment_page">Apartment</string>
     <string name="detachedHome_page">Detached Home</string>
+    <string name="apartments_for_sale">Apartments for sale:</string>
+    <string name="_485_logan_ave_toronto_on_m4m_2p5_1_000_000">485 Logan Ave, Toronto, ON M4M 2P5; $1,000,000</string>
+    <string name="_701_eglinton_west_2079_month">701 Eglinton West; $2079/month</string>
+    <string name="_1050_castlefield_ave_york_on_1819_month">1050 Castlefield Ave., York, ON; $1819/month</string>
+    <string name="apartment_1">Apartment 1</string>
+    <string name="apartment_2">Apartment 2</string>
+    <string name="apartment_3">Apartment 3</string>
 </resources>
