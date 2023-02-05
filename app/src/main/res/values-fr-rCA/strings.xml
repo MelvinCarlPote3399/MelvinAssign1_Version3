@@ -20,4 +20,11 @@
     <string name="apartment_3">Apartment 3</string>
     <string name="button_to_proceed_to_payment">button to proceed to payment</string>
     <string name="payment_screen">Payment Screen</string>
+    <string name="detached_homes_for_sale">Detached homes for sale</string>
+    <string name="_86_wallasey_ave_toronto_ontario_m9m1e4_1_099_900">86 Wallasey Ave Toronto, Ontario M9M1E4; $1,099,900</string>
+    <string name="_19_trailside_dr_toronto_ontario_1_675_000">19 Trailside Dr., Toronto, Ontario; $1,675,000</string>
+    <string name="_131_king_st_toronto_ontario_m9n1l6_1_329_000">131 King St Toronto, Ontario M9N1L6; $1,329,000</string>
+    <string name="house_1">House 1</string>
+    <string name="house_2">House 2</string>
+    <string name="house_3">House 3</string>
 </resources>

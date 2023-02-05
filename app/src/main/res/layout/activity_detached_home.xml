@@ -10,7 +10,141 @@
         android:id="@+id/Detached_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="54dp" />
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="128dp"
+        android:text="@string/detached_homes_for_sale"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/house1"
+        android:layout_width="170dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="111dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/house_1" />
+
+    <TextView
+        android:id="@+id/house1_descrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="35dp"
+        android:text="@string/_86_wallasey_ave_toronto_ontario_m9m1e4_1_099_900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/house2"
+        android:layout_width="176dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/house_2" />
+
+    <TextView
+        android:id="@+id/house2_descrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="68dp"
+        android:text="@string/_19_trailside_dr_toronto_ontario_1_675_000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/house3"
+        android:layout_width="144dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/house_3" />
+
+    <TextView
+        android:id="@+id/house3_descrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="51dp"
+        android:text="@string/_131_king_st_toronto_ontario_m9n1l6_1_329_000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/houseBox1"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="145dp"
+        android:minHeight="48dp"
+        android:text="@string/house_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/houseBox2"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="147dp"
+        android:minHeight="48dp"
+        android:text="@string/house_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/houseBox3"
+        android:layout_width="102dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="153dp"
+        android:minHeight="48dp"
+        android:text="@string/house_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ProceedPayment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="293dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="62dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_media_ff"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
