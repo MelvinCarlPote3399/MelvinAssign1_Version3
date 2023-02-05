@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -29,39 +28,48 @@ public class RentActivity extends AppCompatActivity {
         RadioGroup radioGroup = (RadioGroup) findViewById(R.id.HomeTypeGroup);
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                RadioButton rb1 = (RadioButton) findViewById(R.id.Apartment);
-                RadioButton rb2 = (RadioButton) findViewById(R.id.Detached_home);
-                if(rb1.isChecked()){
-                    DisplayToast();
-                }
-                else{
-                    DisplayToast2();
-                }
+            public void onCheckedChanged(RadioGroup radioGroup, int checkId) {
+                //RadioButton rb1 = (RadioButton) findViewById(R.id.Apartment);
+                //RadioButton rb2 = (RadioButton) findViewById(R.id.Detached_home);
 
+                switch (checkId) {
+                    case R.id.Apartment:
+                        Toast.makeText(RentActivity.this,"Apartment selected!",Toast.LENGTH_LONG).show();
+                        break;
+
+                    case R.id.Detached_home:
+                        Toast.makeText(RentActivity.this,"Detached home selected!",Toast.LENGTH_LONG).show();
+                        break;
+
+                }
+                rentImageButton = (ImageButton) findViewById(R.id.RentButton);
+                rentImageButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        if (checkId==R.id.Apartment){
+                            Intent goToVisitScreen = new Intent(RentActivity.this, ApartmentActivity.class);
+                            startActivity(goToVisitScreen);
+                        }
+                        else if(checkId==R.id.Detached_home){
+                            Intent goToSecondVisitScreen = new Intent(RentActivity.this,DetachedHomeActivity.class);
+                            startActivity(goToSecondVisitScreen);
+                        }
+                        else {
+                            Toast.makeText(RentActivity.this,"Please select an option",Toast.LENGTH_LONG).show();
+
+                        }
+
+                    }
+                });
             }
         });
 
-        ImageButton rentImageButton;
 
-        rentImageButton = (ImageButton) findViewById(R.id.RentButton);
-        rentImageButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent goToVisitScreen = new Intent(RentActivity.this,VisitScreen.class);
-                startActivity(goToVisitScreen);
-            }
-        });
 
     }
 
-    public void DisplayToast() {
-        Toast.makeText(RentActivity.this,"Apartment selected!",Toast.LENGTH_LONG).show();
-    }
 
-    public void DisplayToast2(){
-        Toast.makeText(RentActivity.this,"Detached home selected!",Toast.LENGTH_LONG).show();
-    }
 
 
 
