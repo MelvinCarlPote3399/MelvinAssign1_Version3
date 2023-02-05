@@ -17,6 +17,8 @@
     <string name="apartment_1">Apartment 1</string>
     <string name="apartment_2">Apartment 2</string>
     <string name="apartment_3">Apartment 3</string>
+    <string name="button_to_proceed_to_payment">button to proceed to payment</string>
+    <string name="payment_screen">Payment Screen</string>
 
 
 </resources>
