@@ -23,21 +23,25 @@ public class OptionsMenuActivity extends AppCompatActivity {
 
             case R.id.callRent:
                 Intent phoneCall = new Intent(Intent.ACTION_VIEW);
+                phoneCall.setData(Uri.parse("Tel:"));
                 startActivity(phoneCall);
-                //break;
+                return true;
 
             case R.id.HelpScreen:
                 Uri url = Uri.parse("http://www.google.ca");
                 Intent i = new Intent(Intent.ACTION_VIEW,url);
                 startActivity(i);
-                //break;
+                return true;
 
             case R.id.goHome:
                 Intent homeScreen = new Intent(OptionsMenuActivity.this,PoteActivity.class);
                 startActivity(homeScreen);
-                break;
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
+
     }
 
 }
