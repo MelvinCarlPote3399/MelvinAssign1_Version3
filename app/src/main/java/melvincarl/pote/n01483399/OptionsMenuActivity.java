@@ -1,3 +1,4 @@
+//Name: Melvin Carl Pote; Student number: N01483399; Section: A
 package melvincarl.pote.n01483399;
 
 import android.content.Intent;
