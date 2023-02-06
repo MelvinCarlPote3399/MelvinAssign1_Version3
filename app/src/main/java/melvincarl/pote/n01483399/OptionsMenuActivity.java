@@ -20,6 +20,7 @@ public class OptionsMenuActivity extends AppCompatActivity {
     }
 
     public boolean onOptionItemSelected(MenuItem item){
+
         switch (item.getItemId()){
 
             case R.id.callRent:
@@ -35,7 +36,7 @@ public class OptionsMenuActivity extends AppCompatActivity {
                 return true;
 
             case R.id.goHome:
-                Intent homeScreen = new Intent(OptionsMenuActivity.this,PoteActivity.class);
+                Intent homeScreen = new Intent(this,PoteActivity.class);
                 startActivity(homeScreen);
                 return true;
 
