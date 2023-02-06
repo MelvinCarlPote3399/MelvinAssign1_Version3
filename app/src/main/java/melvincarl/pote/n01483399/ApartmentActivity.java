@@ -9,7 +9,7 @@ import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-public class ApartmentActivity extends AppCompatActivity {
+public class ApartmentActivity extends OptionsMenuActivity {
 
     //creating a variable of type image button
     ImageButton apartmentImageButton;

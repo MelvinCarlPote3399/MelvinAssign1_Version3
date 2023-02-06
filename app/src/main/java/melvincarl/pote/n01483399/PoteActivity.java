@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PoteActivity extends AppCompatActivity {
+public class PoteActivity extends OptionsMenuActivity {
 
     private  Button button;
 

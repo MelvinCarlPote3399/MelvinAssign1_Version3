@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/callRent"
+        android:icon="@drawable/ic_baseline_apartment_24"
+        android:title="@string/rent_button"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/HelpScreen"
+        android:title="@string/help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/goHome"
+        android:icon="@drawable/ic_baseline_warehouse_24"
+        android:title="@string/home_button"
+        app:showAsAction="ifRoom"/>
+
+</menu>

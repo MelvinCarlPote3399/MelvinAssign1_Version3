@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class RentActivity extends AppCompatActivity {
+public class RentActivity extends OptionsMenuActivity {
 
     //creating a variable of type image button
     ImageButton rentImageButton;

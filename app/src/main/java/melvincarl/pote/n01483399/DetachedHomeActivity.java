@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import java.util.Objects;
 
-public class DetachedHomeActivity extends AppCompatActivity {
+public class DetachedHomeActivity extends OptionsMenuActivity {
 
     ImageButton detachedhomeButton;
 
